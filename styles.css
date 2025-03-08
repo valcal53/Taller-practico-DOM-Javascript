@@ -1,0 +1,21 @@
+#boton{
+    background-color: blueviolet;
+    color: white;
+    border-style: none;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+
+
+
+
+
+div {
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;     
+    align-items: center;         
+    height: 90vh;               
+    text-align: center;          
+}
