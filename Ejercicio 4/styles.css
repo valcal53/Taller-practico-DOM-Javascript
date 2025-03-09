@@ -1,0 +1,50 @@
+div {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;  
+    background-color: white;         
+    border-radius: 15px;              
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);          
+}
+h2 {
+    color: #333;                      
+    font-size: 24px;  
+    font-weight: bold;                 
+}
+li {
+    background-color: #f9f9f9;        /* Fondo gris claro para cada tarea */
+    border: 1px solid #ddd;           /* Borde gris suave */
+    border-radius: 8px;                /* Bordes redondeados */
+    justify-content: space-between;    /* Espacio entre el texto y el botón */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para efectos */
+    padding: 3px;
+}
+
+li:hover {
+    transform: translateY(-5px);      
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+button {
+    background-color: #ff4d4d;        
+    color: white;                     
+    border: none;                     
+    padding: 8px 15px;                
+    font-size: 14px;                  
+    border-radius: 5px;                
+    cursor: pointer;                  
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #ff3333;         
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
